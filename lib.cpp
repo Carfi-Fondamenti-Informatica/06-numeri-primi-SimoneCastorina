@@ -5,8 +5,7 @@ bool nprimi(int a) {
         if (a % i == 0) {
             return risultato;
         }
-        risultato = 0;
-
     }
+    risultato = 0;
     return risultato;
 }
